@@ -1,0 +1,494 @@
+[
+  {
+    "id": "1765127252808",
+    "date": "2025-12-07T17:07:32.808Z",
+    "totalMinutes": 410,
+    "distribution": [
+      {
+        "category": "work",
+        "minutes": 60,
+        "percent": 14.6
+      },
+      {
+        "category": "sleep",
+        "minutes": 350,
+        "percent": 85.4
+      }
+    ],
+    "overInvested": [
+      {
+        "category": "sleep",
+        "minutes": 350,
+        "percent": 85.4
+      }
+    ],
+    "neglected": [],
+    "suggestions": [
+      "Focus on your goal: \"learn React\". Allocate 30 mins specifically for this today.",
+      "You spent 85.4% of your day on \"sleep\". Try setting a timer to limit this.",
+      "Great balance! Maintain this distribution."
+    ],
+    "goals": [
+      "learn React"
+    ]
+  },
+  {
+    "id": "1765127482916",
+    "date": "2025-12-07T17:11:22.916Z",
+    "totalMinutes": 840,
+    "distribution": [
+      {
+        "category": "Study",
+        "minutes": 180,
+        "percent": 21.4
+      },
+      {
+        "category": "Exercise",
+        "minutes": 120,
+        "percent": 14.3
+      },
+      {
+        "category": "Social Media",
+        "minutes": 120,
+        "percent": 14.3
+      },
+      {
+        "category": "Sleep",
+        "minutes": 420,
+        "percent": 50
+      }
+    ],
+    "overInvested": [
+      {
+        "category": "Sleep",
+        "minutes": 420,
+        "percent": 50
+      }
+    ],
+    "neglected": [],
+    "suggestions": [
+      "Focus on your goal: \"reduce screen time\". Allocate 30 mins specifically for this today.",
+      "You spent 50% of your day on \"Sleep\". Try setting a timer to limit this.",
+      "Great balance! Maintain this distribution."
+    ],
+    "goals": [
+      "reduce screen time"
+    ]
+  },
+  {
+    "id": "1765127529120",
+    "date": "2025-12-07T17:12:09.120Z",
+    "totalMinutes": 840,
+    "distribution": [
+      {
+        "category": "Study",
+        "minutes": 180,
+        "percent": 21.4
+      },
+      {
+        "category": "Exercise",
+        "minutes": 120,
+        "percent": 14.3
+      },
+      {
+        "category": "Social Media",
+        "minutes": 120,
+        "percent": 14.3
+      },
+      {
+        "category": "Sleep",
+        "minutes": 420,
+        "percent": 50
+      }
+    ],
+    "overInvested": [
+      {
+        "category": "Sleep",
+        "minutes": 420,
+        "percent": 50
+      }
+    ],
+    "neglected": [],
+    "suggestions": [
+      "Focus on your goal: \"reduce screen time & stay healthy\". Allocate 30 mins specifically for this today.",
+      "You spent 50% of your day on \"Sleep\". Try setting a timer to limit this.",
+      "Great balance! Maintain this distribution."
+    ],
+    "goals": [
+      "reduce screen time & stay healthy"
+    ]
+  },
+  {
+    "id": "1765128165876",
+    "date": "2025-12-07T17:22:45.876Z",
+    "totalMinutes": 820,
+    "distribution": [
+      {
+        "category": "Social Media",
+        "minutes": 300,
+        "percent": 36.6
+      },
+      {
+        "category": "Study",
+        "minutes": 120,
+        "percent": 14.6
+      },
+      {
+        "category": "Sleep",
+        "minutes": 400,
+        "percent": 48.8
+      }
+    ],
+    "overInvested": [
+      {
+        "category": "Sleep",
+        "minutes": 400,
+        "percent": 48.8
+      },
+      {
+        "category": "Social Media",
+        "minutes": 300,
+        "percent": 36.6
+      }
+    ],
+    "neglected": [],
+    "suggestions": [
+      "Focus on your goal: \"reduce phone usage\". Allocate 30 mins specifically for this today.",
+      "You spent 48.8% of your day on \"Sleep\". Try setting a timer to limit this.",
+      "Great balance! Maintain this distribution."
+    ],
+    "goals": [
+      "reduce phone usage"
+    ]
+  },
+  {
+    "id": "1765129501340",
+    "date": "2025-12-07T17:45:01.340Z",
+    "totalMinutes": 720,
+    "distribution": [
+      {
+        "category": "Study",
+        "minutes": 180,
+        "percent": 25
+      },
+      {
+        "category": "Social Media",
+        "minutes": 120,
+        "percent": 16.7
+      },
+      {
+        "category": "Sleep",
+        "minutes": 420,
+        "percent": 58.3
+      }
+    ],
+    "overInvested": [
+      {
+        "category": "Sleep",
+        "minutes": 420,
+        "percent": 58.3
+      }
+    ],
+    "neglected": [],
+    "suggestions": [
+      "Focus on your goal: \"reduce screen time\"\". Allocate 30 mins specifically for this today.",
+      "You spent 58.3% of your day on \"Sleep\". Try setting a timer to limit this.",
+      "Great balance! Maintain this distribution."
+    ],
+    "goals": [
+      "reduce screen time\"",
+      "\"stay healthy\""
+    ]
+  },
+  {
+    "id": "1765129914582",
+    "date": "2025-12-07T17:51:54.582Z",
+    "totalMinutes": 819,
+    "distribution": [
+      {
+        "category": "Social Media",
+        "minutes": 300,
+        "percent": 36.6
+      },
+      {
+        "category": "Study",
+        "minutes": 120,
+        "percent": 14.7
+      },
+      {
+        "category": "Sleep",
+        "minutes": 399,
+        "percent": 48.7
+      }
+    ],
+    "overInvested": [
+      {
+        "category": "Sleep",
+        "minutes": 399,
+        "percent": 48.7
+      },
+      {
+        "category": "Social Media",
+        "minutes": 300,
+        "percent": 36.6
+      }
+    ],
+    "neglected": [],
+    "suggestions": [
+      "Focus on your goal: \"reduce phone usage\". Allocate 30 mins specifically for this today.",
+      "You spent 48.7% of your day on \"Sleep\". Try setting a timer to limit this.",
+      "Great balance! Maintain this distribution."
+    ],
+    "goals": [
+      "reduce phone usage"
+    ]
+  },
+  {
+    "id": "1765130595651",
+    "date": "2025-12-07T18:03:15.651Z",
+    "totalMinutes": 780,
+    "distribution": [
+      {
+        "category": "Sleep",
+        "minutes": 420,
+        "percent": 53.85
+      },
+      {
+        "category": "Study",
+        "minutes": 180,
+        "percent": 23.08
+      },
+      {
+        "category": "Social media",
+        "minutes": 120,
+        "percent": 15.38
+      },
+      {
+        "category": "Exercise",
+        "minutes": 60,
+        "percent": 7.69
+      }
+    ],
+    "overInvested": [
+      {
+        "category": "Sleep",
+        "minutes": 420,
+        "percent": 53.85
+      }
+    ],
+    "neglected": [],
+    "productivityScore": 72,
+    "suggestions": [
+      {
+        "tip": "Take a 10-minute walk",
+        "reason": "Simple habit to reset mental clarity",
+        "duration": "10 minutes",
+        "targetGoal": "\"reduce screen time\""
+      },
+      {
+        "tip": "Reduce 5 minutes from a high-time category",
+        "reason": "Small changes build momentum",
+        "duration": "5 minutes",
+        "targetGoal": "\"reduce screen time\""
+      },
+      {
+        "tip": "Add 5 minutes to a neglected category",
+        "reason": "Helps improve balance",
+        "duration": "5 minutes",
+        "targetGoal": "\"reduce screen time\""
+      }
+    ],
+    "goals": [
+      "\"reduce screen time\"",
+      "\"stay healthy\""
+    ]
+  },
+  {
+    "id": "1765130997862",
+    "date": "2025-12-07T18:09:57.862Z",
+    "totalMinutes": 779,
+    "distribution": [
+      {
+        "category": "Sleep",
+        "minutes": 419,
+        "percent": 53.79
+      },
+      {
+        "category": "Study",
+        "minutes": 180,
+        "percent": 23.11
+      },
+      {
+        "category": "Social media",
+        "minutes": 120,
+        "percent": 15.4
+      },
+      {
+        "category": "Exercise",
+        "minutes": 60,
+        "percent": 7.7
+      }
+    ],
+    "overInvested": [
+      {
+        "category": "Sleep",
+        "minutes": 419,
+        "percent": 53.79
+      }
+    ],
+    "neglected": [],
+    "productivityScore": 72,
+    "suggestions": [
+      {
+        "tip": "Take a 10-minute walk",
+        "reason": "Simple habit to reset mental clarity",
+        "duration": "10 minutes",
+        "targetGoal": "\"reduce screen time\""
+      },
+      {
+        "tip": "Reduce 5 minutes from a high-time category",
+        "reason": "Small changes build momentum",
+        "duration": "5 minutes",
+        "targetGoal": "\"reduce screen time\""
+      },
+      {
+        "tip": "Add 5 minutes to a neglected category",
+        "reason": "Helps improve balance",
+        "duration": "5 minutes",
+        "targetGoal": "\"reduce screen time\""
+      }
+    ],
+    "goals": [
+      "\"reduce screen time\"",
+      "\"stay healthy\""
+    ]
+  },
+  {
+    "id": "1765131389066",
+    "date": "2025-12-07T18:16:29.066Z",
+    "totalMinutes": 780,
+    "distribution": [
+      {
+        "category": "Study",
+        "minutes": 400,
+        "percent": 51.29
+      },
+      {
+        "category": "Work",
+        "minutes": 200,
+        "percent": 25.64
+      },
+      {
+        "category": "Sleep",
+        "minutes": 120,
+        "percent": 15.38
+      },
+      {
+        "category": "Exercise",
+        "minutes": 60,
+        "percent": 7.69
+      }
+    ],
+    "overInvested": [
+      {
+        "category": "Study",
+        "minutes": 400,
+        "percent": 51.29
+      },
+      {
+        "category": "Work",
+        "minutes": 200,
+        "percent": 25.64
+      }
+    ],
+    "neglected": [],
+    "productivityScore": 100,
+    "suggestions": [
+      {
+        "tip": "Take a 10-minute walk",
+        "reason": "Simple habit to reset mental clarity",
+        "duration": "10 minutes",
+        "targetGoal": "learn React"
+      },
+      {
+        "tip": "Reduce 5 minutes from a high-time category",
+        "reason": "Small changes build momentum",
+        "duration": "5 minutes",
+        "targetGoal": "learn React"
+      },
+      {
+        "tip": "Add 5 minutes to a neglected category",
+        "reason": "Helps improve balance",
+        "duration": "5 minutes",
+        "targetGoal": "learn React"
+      }
+    ],
+    "goals": [
+      "learn React"
+    ]
+  },
+  {
+    "id": "1765131581979",
+    "date": "2025-12-07T18:19:41.979Z",
+    "totalMinutes": 780,
+    "distribution": [
+      {
+        "category": "Study",
+        "minutes": 400,
+        "percent": 51.29
+      },
+      {
+        "category": "Work",
+        "minutes": 200,
+        "percent": 25.64
+      },
+      {
+        "category": "Sleep",
+        "minutes": 120,
+        "percent": 15.38
+      },
+      {
+        "category": "Exercise",
+        "minutes": 60,
+        "percent": 7.69
+      }
+    ],
+    "overInvested": [
+      {
+        "category": "Study",
+        "minutes": 400,
+        "percent": 51.29
+      },
+      {
+        "category": "Work",
+        "minutes": 200,
+        "percent": 25.64
+      }
+    ],
+    "neglected": [],
+    "productivityScore": 100,
+    "suggestions": [
+      {
+        "tip": "Take a 10-minute walk",
+        "reason": "Simple habit to reset mental clarity",
+        "duration": "10 minutes",
+        "targetGoal": "learn React"
+      },
+      {
+        "tip": "Reduce 5 minutes from a high-time category",
+        "reason": "Small changes build momentum",
+        "duration": "5 minutes",
+        "targetGoal": "learn React"
+      },
+      {
+        "tip": "Add 5 minutes to a neglected category",
+        "reason": "Helps improve balance",
+        "duration": "5 minutes",
+        "targetGoal": "learn React"
+      }
+    ],
+    "goals": [
+      "learn React"
+    ]
+  }
+]
