@@ -18,14 +18,12 @@ UseCases.md
 .idea/
 *.log
 
-# Frontend source (only need dist)
-frontend/src/
-frontend/public/
-frontend/.eslintrc.cjs
-frontend/vite.config.js
-frontend/postcss.config.js
-frontend/tailwind.config.js
-
 # Keep these
 !frontend/package.json
 !frontend/package-lock.json
+!frontend/src/
+!frontend/public/
+!frontend/vite.config.js
+!frontend/postcss.config.js
+!frontend/tailwind.config.js
+!frontend/.eslintrc.cjs
