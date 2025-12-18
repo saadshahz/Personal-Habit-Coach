@@ -31,13 +31,13 @@ const ActivityInput = ({ activities, setActivities, onAdd, onRemove }) => {
                         >
                             <div className="flex-1 space-y-1">
                                 <div className="relative">
-                                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-white/50">
                                         <Tag className="h-4 w-4" />
                                     </div>
                                     <input
                                         type="text"
                                         placeholder="Category (e.g. Work)"
-                                        className="glass-input pl-10 w-full rounded-xl py-3 text-sm text-slate-700 placeholder:text-slate-400"
+                                        className="glass-input pl-10 w-full rounded-xl py-3 text-sm"
                                         value={activity.category}
                                         onChange={(e) => handleChange(index, 'category', e.target.value)}
                                     />
@@ -46,24 +46,24 @@ const ActivityInput = ({ activities, setActivities, onAdd, onRemove }) => {
 
                             <div className="w-32 space-y-1">
                                 <div className="relative">
-                                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-white/50">
                                         <Clock className="h-4 w-4" />
                                     </div>
                                     <input
                                         type="number"
                                         placeholder="Mins"
-                                        className={`glass-input pl-10 w-full rounded-xl py-3 text-sm text-slate-700 placeholder:text-slate-400 ${hasError ? 'border-red-300 bg-red-50 focus:border-red-400' : ''}`}
+                                        className={`glass-input pl-10 w-full rounded-xl py-3 text-sm ${hasError ? 'border-red-400 bg-red-500/20 focus:border-red-400' : ''}`}
                                         value={activity.minutes}
                                         onChange={(e) => handleChange(index, 'minutes', e.target.value)}
                                         min="1"
                                     />
                                 </div>
-                                {hasError && <div className="text-[10px] text-red-500 pl-1">Must be &gt; 0</div>}
+                                {hasError && <div className="text-[10px] text-red-300 pl-1">Must be &gt; 0</div>}
                             </div>
 
                             <button
                                 onClick={() => onRemove(index)}
-                                className="p-3 mt-[1px] rounded-xl text-slate-300 hover:text-red-500 hover:bg-red-50 transition-colors"
+                                className="p-3 mt-[1px] rounded-xl text-white/50 hover:text-red-400 hover:bg-red-500/20 transition-colors border border-transparent hover:border-red-500/30"
                                 title="Remove"
                             >
                                 <Trash2 size={18} />
@@ -75,7 +75,7 @@ const ActivityInput = ({ activities, setActivities, onAdd, onRemove }) => {
 
             <button
                 onClick={onAdd}
-                className="w-full py-4 border border-dashed border-slate-300 rounded-xl text-slate-500 hover:text-orange-500 hover:border-orange-300 hover:bg-orange-50/30 transition-all flex items-center justify-center gap-2 text-sm font-semibold"
+                className="w-full py-4 border-2 border-dashed border-white/30 rounded-xl text-white/70 hover:text-cyan-400 hover:border-cyan-400 hover:bg-cyan-500/10 transition-all flex items-center justify-center gap-2 text-sm font-semibold backdrop-blur-md"
             >
                 <Plus size={18} />
                 Add Another Activity

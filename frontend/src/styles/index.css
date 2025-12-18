@@ -4,37 +4,75 @@
 
 @layer utilities {
   .glass-card {
-    @apply bg-white/80 backdrop-blur-xl border border-white/40 shadow-xl shadow-slate-200/50;
+    @apply bg-white/10 backdrop-blur-2xl border border-white/20 shadow-2xl shadow-black/20;
   }
 
   .glass-input {
-    @apply bg-white/60 backdrop-blur-md border border-slate-200 focus:border-orange-400 focus:ring-4 focus:ring-orange-100 transition-all outline-none font-medium;
+    @apply bg-white/10 backdrop-blur-md border border-white/30 focus:border-cyan-400 focus:ring-4 focus:ring-cyan-400/30 transition-all outline-none font-medium text-white placeholder-white/50;
   }
 
   .btn-primary {
-    @apply bg-gradient-to-r from-slate-800 to-slate-900 text-white hover:shadow-lg hover:shadow-slate-800/25 hover:-translate-y-0.5 active:translate-y-0 active:scale-95 transition-all;
+    @apply bg-gradient-to-r from-purple-600 via-violet-600 to-indigo-600 text-white transition-all font-bold;
+  }
+
+  .btn-gradient {
+    @apply bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 text-white transition-all font-bold;
+  }
+
+  /* Hover effects need to be defined separately */
+  .btn-primary:hover {
+    box-shadow: 0 0 40px rgba(139, 92, 246, 0.3);
+    transform: translateY(-4px);
+  }
+
+  .btn-primary:active {
+    transform: translateY(0);
+    scale: 0.95;
+  }
+
+  .btn-gradient:hover {
+    box-shadow: 0 0 40px rgba(6, 182, 212, 0.3);
+    transform: translateY(-4px);
   }
 }
 
 body {
-  background-color: #f8fafc;
-  /* Soft mesh gradient */
-  background-image:
-    radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
-    radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
-    radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
-  /* Lighter theme override for the body to keep it clean */
-  background: radial-gradient(circle at 15% 50%, rgba(253, 224, 71, 0.15), transparent 25%),
-    radial-gradient(circle at 85% 30%, rgba(244, 114, 182, 0.15), transparent 25%);
-  background-color: #f8fafc;
+  /* Vibrant animated gradient background */
+  background: linear-gradient(-45deg, #1e1b4b, #312e81, #1e3a8a, #0c4a6e, #164e63);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
   min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Animated mesh overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(139, 92, 246, 0.15), transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(6, 182, 212, 0.15), transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.1), transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Ensure content is above background */
+#root {
+  position: relative;
+  z-index: 1;
 }
 
 /* Animations */
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
 
   to {
@@ -43,6 +81,72 @@ body {
   }
 }
 
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
 .animate-fade-in {
-  animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #8b5cf6, #06b6d4);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #a78bfa, #22d3ee);
 }

@@ -490,5 +490,201 @@
     "goals": [
       "learn React"
     ]
+  },
+  {
+    "id": "1766070827017",
+    "date": "2025-12-18T15:13:47.017Z",
+    "totalMinutes": 970,
+    "distribution": [
+      {
+        "category": "University",
+        "minutes": 320,
+        "percent": 32.99
+      },
+      {
+        "category": "Office",
+        "minutes": 300,
+        "percent": 30.93
+      },
+      {
+        "category": "Sleep",
+        "minutes": 250,
+        "percent": 25.77
+      },
+      {
+        "category": "Exercise",
+        "minutes": 100,
+        "percent": 10.31
+      }
+    ],
+    "overInvested": [
+      {
+        "category": "University",
+        "minutes": 320,
+        "percent": 32.99
+      },
+      {
+        "category": "Office",
+        "minutes": 300,
+        "percent": 30.93
+      },
+      {
+        "category": "Sleep",
+        "minutes": 250,
+        "percent": 25.77
+      }
+    ],
+    "neglected": [],
+    "productivityScore": 100,
+    "suggestions": [
+      {
+        "category": "Health & Well-being",
+        "tip": "Take a 10-minute walk outside.",
+        "reason": "Walking outdoors helps reset your circadian rhythm and clears mental fog, making you more productive for the next task.",
+        "duration": "10 minutes",
+        "targetGoal": "Java developer"
+      },
+      {
+        "category": "Productivity",
+        "tip": "Reduce 5 minutes from a high-time category.",
+        "reason": "Trimming just a few minutes creates a buffer in your schedule, reducing stress and giving you breathing room between tasks.",
+        "duration": "5 minutes",
+        "targetGoal": "Java developer"
+      },
+      {
+        "category": "Personal Growth",
+        "tip": "Add 5 minutes to a neglected category.",
+        "reason": "Consistent small investments in neglected areas compound over time, leading to significant long-term improvements.",
+        "duration": "5 minutes",
+        "targetGoal": "Java developer"
+      }
+    ],
+    "goals": [
+      "Java developer"
+    ]
+  },
+  {
+    "id": "1766072722991",
+    "date": "2025-12-18T15:45:22.991Z",
+    "totalMinutes": 850,
+    "distribution": [
+      {
+        "category": "Sleep",
+        "minutes": 400,
+        "percent": 47.06
+      },
+      {
+        "category": "University",
+        "minutes": 250,
+        "percent": 29.41
+      },
+      {
+        "category": "Exercise",
+        "minutes": 200,
+        "percent": 23.53
+      }
+    ],
+    "overInvested": [
+      {
+        "category": "Sleep",
+        "minutes": 400,
+        "percent": 47.06
+      },
+      {
+        "category": "University",
+        "minutes": 250,
+        "percent": 29.41
+      }
+    ],
+    "neglected": [],
+    "productivityScore": 100,
+    "suggestions": [
+      {
+        "category": "Health & Well-being",
+        "tip": "Take a 10-minute walk outside.",
+        "reason": "Walking outdoors helps reset your circadian rhythm and clears mental fog, making you more productive for the next task.",
+        "duration": "10 minutes",
+        "targetGoal": "Learn React"
+      },
+      {
+        "category": "Productivity",
+        "tip": "Reduce 5 minutes from a high-time category.",
+        "reason": "Trimming just a few minutes creates a buffer in your schedule, reducing stress and giving you breathing room between tasks.",
+        "duration": "5 minutes",
+        "targetGoal": "Learn React"
+      },
+      {
+        "category": "Personal Growth",
+        "tip": "Add 5 minutes to a neglected category.",
+        "reason": "Consistent small investments in neglected areas compound over time, leading to significant long-term improvements.",
+        "duration": "5 minutes",
+        "targetGoal": "Learn React"
+      }
+    ],
+    "goals": [
+      "Learn React"
+    ]
+  },
+  {
+    "id": "1766073327833",
+    "date": "2025-12-18T15:55:27.833Z",
+    "totalMinutes": 900,
+    "distribution": [
+      {
+        "category": "Office",
+        "minutes": 500,
+        "percent": 55.55
+      },
+      {
+        "category": "University",
+        "minutes": 250,
+        "percent": 27.78
+      },
+      {
+        "category": "Sleep",
+        "minutes": 150,
+        "percent": 16.67
+      }
+    ],
+    "overInvested": [
+      {
+        "category": "Office",
+        "minutes": 500,
+        "percent": 55.55
+      },
+      {
+        "category": "University",
+        "minutes": 250,
+        "percent": 27.78
+      }
+    ],
+    "neglected": [],
+    "productivityScore": 97,
+    "suggestions": [
+      {
+        "category": "Time Management",
+        "tip": "Reduce Office time by 15 minutes daily",
+        "reason": "You're spending a significant amount of time on Office. By reducing just 15 minutes, you can create space for other important activities while maintaining productivity. This small change helps prevent burnout and creates better work-life balance.",
+        "duration": "15 minutes",
+        "targetGoal": "Learn React"
+      },
+      {
+        "category": "Health & Wellness",
+        "tip": "Establish a consistent sleep schedule",
+        "reason": "Going to bed and waking up at the same time daily regulates your circadian rhythm, improving sleep quality and daytime energy. Quality sleep enhances focus, mood, and overall productivity in all areas of life.",
+        "duration": "30 minutes earlier",
+        "targetGoal": "Learn React"
+      },
+      {
+        "category": "Mindfulness",
+        "tip": "Practice 10 minutes of morning meditation",
+        "reason": "Starting your day with meditation reduces stress, improves focus, and sets a positive tone for the day. Regular practice enhances emotional regulation and decision-making, supporting progress toward your personal goals.",
+        "duration": "10 minutes",
+        "targetGoal": "Learn React"
+      }
+    ],
+    "goals": [
+      "Learn React"
+    ]
   }
 ]
