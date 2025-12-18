@@ -1,0 +1,17 @@
+{
+    "name": "personal-habit-coach-root",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "backend",
+        "frontend"
+    ],
+    "engines": {
+        "node": ">=18.0.0",
+        "npm": ">=9.0.0"
+    },
+    "scripts": {
+        "build": "cd backend && npm run build",
+        "start": "cd backend && npm start"
+    }
+}
