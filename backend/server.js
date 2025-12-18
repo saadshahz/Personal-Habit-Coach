@@ -25,6 +25,15 @@ app.use(bodyParser.json());
 // API Routes
 app.use('/api', apiRoutes);
 
+// Health Check Endpoint
+app.get('/health', (req, res) => {
+    res.status(200).json({
+        status: 'healthy',
+        timestamp: new Date().toISOString(),
+        environment: NODE_ENV
+    });
+});
+
 // Serve Frontend Static Files in Production
 if (NODE_ENV === 'production') {
     const frontendBuildPath = path.join(__dirname, '../frontend/dist');
@@ -33,6 +42,7 @@ if (NODE_ENV === 'production') {
     app.use(express.static(frontendBuildPath));
 
     // Handle React Router - send all non-API requests to index.html
+    // This MUST be the last GET route
     app.get('*', (req, res) => {
         res.sendFile(path.join(frontendBuildPath, 'index.html'));
     });
@@ -50,15 +60,6 @@ if (NODE_ENV === 'production') {
         });
     });
 }
-
-// Health Check Endpoint
-app.get('/health', (req, res) => {
-    res.status(200).json({
-        status: 'healthy',
-        timestamp: new Date().toISOString(),
-        environment: NODE_ENV
-    });
-});
 
 // Global Error Handler
 app.use(errorHandler);
